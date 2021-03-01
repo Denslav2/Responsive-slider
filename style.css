@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 30px auto;
+    max-width: 1200px;
+}
+.slider {
+   border: 1px solid black;
+   max-width: 80%;
+   margin: 20px auto;
+   overflow: hidden;
+}
+.slider-line{
+    display: flex;
+    background-color:aqua;
+    transition: all ease 0.5s;
+}
+.box-btn{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+}
+.btn{
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: rgb(255, 130, 130);
+}
